@@ -1,0 +1,196 @@
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+body {
+    background-color: #FEF9EF;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+}
+
+h2 {
+    padding-bottom: 30px; 
+    line-height: 2;
+    font-size: 3em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Navigation */
+#navigation {
+    background-color: #FFC600;
+}
+#navigation-div {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.a-brand {
+    color: #FEF9EF;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    text-shadow: 2px 2px 4px #393E46;
+    font-family: 'Yeseva One', cursive;
+    font-size:xx-large;
+}
+.a-brand:hover {
+    color: #393E46;
+    text-shadow: 2px 2px 2px #FEF9EF;
+}
+.anav {
+    color: #FEF9EF;
+    text-shadow: 2px 2px 2px #393E46;
+    font-family: 'Yeseva One', cursive;
+    font-size: larger;
+    text-transform: uppercase;
+}
+a.anav:hover {
+    color: #393E46;
+    transition: 1s;
+}
+
+/* Sections */
+section {
+    width: 100%;
+    border-bottom: 1px solid #FFC600;
+}
+
+/* Home */
+#container-home {
+    margin: 2.5%;  
+    padding: 4% 2.5%;
+    text-align: center;
+}
+
+#container-home > h1 {
+    padding-top: 12px;
+    text-transform: uppercase;
+    word-spacing: 3px;
+    line-height: 2;
+    font-size: 4em;
+
+}
+#container-home > p {
+    font-size: 1.5em;
+    padding: 12px 30px;
+
+    
+}
+#container-home > h3 {
+    margin-top: 8px;
+    padding: 12px 0 ;
+    color: #E28413;
+    font-size: 2em;
+    font-style: italic;
+
+}
+
+/* Colors */
+ #container-color1{
+    margin: 2.5%;  
+    padding: 4% 2.5%;
+    text-align: center;
+}
+#row-color {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+.box {
+    border-radius: 5px;
+}
+p.color-p1 {
+    font-size: 1em;
+    margin-top: 16px;
+}
+#box-1 {
+    background-color: #FEE440;
+}
+#box-2 {
+    background-color: #F56416;
+}
+#box-3 {
+    background-color: #EBBAB9;
+}
+#box-4 {
+    background-color: #995D81;
+}
+#box-5 {
+    background-color: #97B1A6;
+}
+#box-6 {
+    background-color: #EB8258;
+}
+#box-7 {
+    background-color: #FFEDDA;
+}
+#box-8 {
+    background-color: #F0EBCC;
+}
+#box-9 {
+    background-color: #007580;
+}
+#box-10 {
+    background-color: #00AF91;
+}
+#box-11 {
+    background-color: #C9C5BA;
+}
+#box-12 {
+    background-color: #898989;
+}
+#box-13 {
+    background-color: #A2AEBB;
+}
+#box-14 {
+    background-color: #583E23;
+}
+#box-15 {
+    background-color: #B0A084;
+}
+#box-16 {
+    background-color: #29335C;
+}
+
+/* Section Fonts */
+#font-container {
+    margin: 2.5%;  
+    padding: 4% 2.5%;
+}
+#font-container2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 25px;
+    }
+
+.font-label {
+    font-size: 2em;
+    text-decoration: underline;
+}
+.regular {
+    font-style: normal;
+}
+.bold {
+    font-weight: 700;
+}
+.italic {
+    font-style: italic;
+}
+.josefin-sans {
+    font-family: 'Josefin Sans', sans-serif;
+}
+.yeseva-one {
+    font-family: 'Yeseva One', cursive;
+}
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+.lato {
+    font-family: 'Lato', sans-serif;
+}
+.source-serif-pro {
+    font-family: 'Source Serif Pro', serif;
+}
